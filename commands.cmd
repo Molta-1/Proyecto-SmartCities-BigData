@@ -32,3 +32,38 @@ pip install pandas
 # Instalar pyarrow (acelera operaciones Parquet)
 pip install pyarrow
 
+# Eliminar venv viejo
+rmdir /s venv
+
+# Crear venv con Python 3.11 específicamente
+py -3.11 -m venv venv
+
+# Activar
+venv\Scripts\activate
+
+# Verificar versión
+python --version
+# Debe decir: Python 3.11.9
+
+
+# Listar todas las versiones de Python instaladas
+py --list
+
+# Deberías ver algo como:
+# -V:3.14 *         Python 3.14.0
+# -V:3.11           Python 3.11.9
+
+py -3.11 --version
+
+# Actualizar pip
+python -m pip install --upgrade pip
+
+# Instalar PySpark
+pip install pyspark==3.5.0
+
+# Instalar resto de dependencias
+pip install jupyter notebook pandas pyarrow
+
+# Verificar instalaciones
+pip list
+
