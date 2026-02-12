@@ -71,7 +71,7 @@ source venv/bin/activate
 python --version
 # Debe decir: Python 3.11.x
 
-# Listar versiones de Python instaladas
+# Listar versiones de Python instaladas2
 ls /usr/bin/python*
 
 # Verificar versión específica
