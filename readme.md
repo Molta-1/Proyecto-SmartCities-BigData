@@ -22,3 +22,12 @@ Ofrece:
 - Herramientas para orquestar trabajos, visualizar datos, colaborar con tu equipo, gestionar todo el ciclo de vida de tus proyectos datos
 
 
+
+## Estándares de Código
+
+Este proyecto sigue [PEP 8](https://pep8.org/) y nuestras [convenciones internas](docs/CODING_STANDARDS.md).
+
+**Antes de hacer commit:**
+- Revisar naming conventions
+- Agregar docstrings a funciones nuevas
+- Comentar decisiones de diseño no obvias
