@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-02-15 18:32:29.271936 by Eclipse SUMO $Id: ptlines2flows.py v1_3_1+0313-ccb31df3eb jakob.erdmann@dlr.de 2019-09-02 13:26:32 +0200 $ v1_26_0+0000-fa7df22d7f1
+<configuration>
+    <net-file value="C:\Users\sebas\2026-02-15-18-21-36\2026-02-15-18-31-42\osm.net.xml.gz"/>
+    <ptlines-file value="C:\Users\sebas\2026-02-15-18-21-36\2026-02-15-18-31-42\osm_ptlines.xml"/>
+    <ptstops-file value="C:\Users\sebas\2026-02-15-18-21-36\2026-02-15-18-31-42\osm_stops.add.xml"/>
+    <output-file value="C:\Users\sebas\2026-02-15-18-21-36\2026-02-15-18-31-42\osm_pt.rou.xml"/>
+    <stopinfos-file value="C:\Users\sebas\2026-02-15-18-21-36\2026-02-15-18-31-42\stopinfos.xml"/>
+    <routes-file value="C:\Users\sebas\2026-02-15-18-21-36\2026-02-15-18-31-42\vehroutes.xml"/>
+    <trips-file value="C:\Users\sebas\2026-02-15-18-21-36\2026-02-15-18-31-42\trips.trips.xml"/>
+    <min-stops value="0"/>
+    <extend-to-fringe value="True"/>
+    <random-begin value="True"/>
+    <seed value="42"/>
+    <ignore-errors value="True"/>
+    <vtype-prefix value="pt_"/>
+    <verbose value="True"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="pt_bus" vClass="bus" speedFactor="0.95"/>
+    <vType id="pt_tram" vClass="tram" speedFactor="1.0"/>
+    <vType id="pt_train" vClass="rail"/>
+    <vType id="pt_subway" vClass="subway"/>
+    <vType id="pt_light_rail" vClass="rail_urban"/>
+    <vType id="pt_monorail" vClass="rail_urban"/>
+    <vType id="pt_trolleybus" vClass="bus" speedFactor="0.95"/>
+    <vType id="pt_minibus" vClass="bus" speedFactor="0.95"/>
+    <vType id="pt_share_taxi" vClass="taxi" speedFactor="0.95"/>
+    <vType id="pt_aerialway" vClass="cable_car" length="2.5" width="2" personCapacity="4"/>
+    <vType id="pt_ferry" vClass="ship"/>
+    <trip id="0_bus_R09:0" type="pt_bus" depart="3.0" departLane="best" from="313416568" to="1344679503#1">
+        <stop busStop="6812665584" duration="30"/>  <!-- Paradas Escazú-San José -->
+    </trip>
+    <trip id="1_bus_R09:1" type="pt_bus" depart="15.0" departLane="best" from="549800867" to="313416572">
+        <stop busStop="10857092910" duration="30"/>  <!-- Terminal Santa Ana -->
+        <stop busStop="6812679486" duration="30"/>  <!-- Paradas San José-Escazu -->
+        <stop busStop="12452606525" duration="30"/>  <!-- Gimnasio Nacional -->
+    </trip>
+    <trip id="2_bus_Ruta_9_Santa_Ana_-_San_José:0" type="pt_bus" depart="15.0" departLane="best" from="313416568" to="423270143#0">
+        <stop busStop="6812665584" duration="30"/>  <!-- Paradas Escazú-San José -->
+        <stop busStop="12453512212" duration="30"/>  <!-- Sarmiento -->
+        <stop busStop="12453512211" duration="30"/>  <!-- Park Inn -->
+        <stop busStop="12453512209" duration="30"/>  <!-- Torre Mercedes -->
+    </trip>
+    <trip id="3_bus_Ruta_08_San_José_-_Ruta_Periférica:0" type="pt_bus" depart="17.0" departLane="best" from="179736579#0" to="198218478">
+        <stop busStop="3950755435" duration="30"/>  <!-- Parada de bus San José - Barrio Escalante y Carmiol - San Pedro - San José -->
+        <stop busStop="3950802957" duration="30"/>  <!-- Parque John F. Kennedy -->
+    </trip>
+    <trip id="4_bus_L4:0" type="pt_bus" depart="52.0" departLane="best" from="222665295#1" to="222665295#1">
+        <stop busStop="4092185441" duration="30"/>  <!-- Parada bus Periférica L4 -->
+    </trip>
+    <trip id="5_bus_142:0" type="pt_bus" depart="55.0" departLane="best" from="1196913410" to="298981125#1">
+        <stop busStop="1833745692" duration="30"/>  <!-- Avenida Central de Guadalupe -->
+        <stop busStop="4098834270" duration="30"/>  <!-- Parada Municipalidad de Goicoechea 1 -->
+        <stop busStop="-4098870372" duration="30"/>  <!-- Parada CCG -->
+        <stop busStop="2698004040" duration="30"/>  <!-- Parada Parque Nacional -->
+        <stop busStop="4098870366" duration="30"/>  <!-- Parada Parque España -->
+        <stop busStop="4098870368" duration="30"/>  <!-- Parada Hospital Calderón Guardia -->
+        <stop busStop="4098870369" duration="30"/>  <!-- Parada Antigua Aduana -->
+    </trip>
+    <trip id="6_bus_203:0" type="pt_bus" depart="58.0" departLane="best" from="389754237" to="-549800868">
+        <stop busStop="5310867777" duration="30"/>  <!-- Corobicí - General Cañas -->
+        <stop busStop="3655894875" duration="30"/>  <!-- Registro Nacional Oeste - Paseo Colón -->
+        <stop busStop="5310867776" duration="30"/>  <!-- Hospital de Niños - Paseo Colón -->
+        <stop busStop="-4100624695" duration="30"/>  <!-- San José -->
+        <stop busStop="-5310867778" duration="30"/>  <!-- Terminal Atenas -->
+    </trip>
+    <trip id="7_train_2:0" type="pt_train" depart="93.0" departLane="best" from="468564875#0" to="-25549799#0">
+        <stop busStop="4628999924" duration="30"/>  <!-- Atlántico -->
+        <stop busStop="5824465670" duration="30"/>  <!-- Calle Blancos -->
+        <stop busStop="-4629001928" duration="30"/>  <!-- Colima -->
+    </trip>
+    <trip id="8_train_4:0" type="pt_train" depart="119.0" departLane="best" from="452573164#0" to="1038934246#3">
+        <stop busStop="4628999924@6559533" duration="30"/>  <!-- Atlántico -->
+        <stop busStop="4628999925" duration="30"/>  <!-- Estación Atlántico -->
+    </trip>
+    <trip id="9_train_4:1" type="pt_train" depart="131.0" departLane="best" from="1038934246#3" to="1038934246#3">
+        <stop busStop="4628999924@6559533" duration="30"/>  <!-- Atlántico -->
+        <stop busStop="4628999925" duration="30"/>  <!-- Estación Atlántico -->
+    </trip>
+    <trip id="10_train_1:0" type="pt_train" depart="132.0" departLane="best" from="25841648#0" to="446753979#15">
+        <stop busStop="289555266" duration="30"/>  <!-- La Salle -->
+        <stop busStop="278449879" duration="30"/>  <!-- Contraloría -->
+        <stop busStop="4636012381" duration="30"/>  <!-- Cuba -->
+        <stop busStop="4636012380" duration="30"/>  <!-- Pacífico -->
+    </trip>
+    <trip id="11_train_1:1" type="pt_train" depart="133.0" departLane="best" from="-446753979#15" to="-25841648#0">
+        <stop busStop="-4636012380" duration="30"/>  <!-- Pacífico -->
+        <stop busStop="-4636012381" duration="30"/>  <!-- Cuba -->
+        <stop busStop="-278449879" duration="30"/>  <!-- Contraloría -->
+        <stop busStop="-289555266" duration="30"/>  <!-- La Salle -->
+    </trip>
+    <trip id="12_train_2:1" type="pt_train" depart="165.0" departLane="best" from="25549799#0" to="-452573164#0">
+        <stop busStop="4629001928" duration="30"/>  <!-- Colima -->
+        <stop busStop="-5824465670" duration="30"/>  <!-- Calle Blancos -->
+        <stop busStop="-4628999924" duration="30"/>  <!-- Atlántico -->
+    </trip>
+    <trip id="13_train_2:2" type="pt_train" depart="201.0" departLane="best" from="452573164#0" to="-25549799#0">
+        <stop busStop="4628999924@6559533" duration="30"/>  <!-- Atlántico -->
+        <stop busStop="5824465670" duration="30"/>  <!-- Calle Blancos -->
+        <stop busStop="-4629001928" duration="30"/>  <!-- Colima -->
+    </trip>
+    <trip id="14_train_1:2" type="pt_train" depart="204.0" departLane="best" from="25841648#0" to="1038934246#3">
+        <stop busStop="289555266" duration="30"/>  <!-- La Salle -->
+        <stop busStop="278449879" duration="30"/>  <!-- Contraloría -->
+        <stop busStop="4636012381" duration="30"/>  <!-- Cuba -->
+        <stop busStop="4636012380" duration="30"/>  <!-- Pacífico -->
+        <stop busStop="4636012379" duration="30"/>  <!-- Plaza Cleto González Víquez -->
+        <stop busStop="10719766598" duration="30"/>  <!-- None -->
+        <stop busStop="4636012378" duration="30"/>  <!-- La Corte -->
+        <stop busStop="4628999924@6559533" duration="30"/>  <!-- Atlántico -->
+        <stop busStop="4628999925" duration="30"/>  <!-- Estación Atlántico -->
+    </trip>
+    <trip id="15_train_2:3" type="pt_train" depart="253.0" departLane="best" from="25549799#0" to="-468564875#0">
+        <stop busStop="4629001928" duration="30"/>  <!-- Colima -->
+        <stop busStop="-5824465670" duration="30"/>  <!-- Calle Blancos -->
+        <stop busStop="-4628999924" duration="30"/>  <!-- Atlántico -->
+    </trip>
+    <trip id="16_train_2:4" type="pt_train" depart="303.0" departLane="best" from="468564875#0" to="-25549799#0">
+        <stop busStop="4628999924" duration="30"/>  <!-- Atlántico -->
+        <stop busStop="5824465670" duration="30"/>  <!-- Calle Blancos -->
+        <stop busStop="-4629001928" duration="30"/>  <!-- Colima -->
+    </trip>
+    <trip id="17_train_2:5" type="pt_train" depart="326.0" departLane="best" from="25549799#0" to="-468564875#0">
+        <stop busStop="4629001928" duration="30"/>  <!-- Colima -->
+        <stop busStop="-5824465670" duration="30"/>  <!-- Calle Blancos -->
+        <stop busStop="-4628999924" duration="30"/>  <!-- Atlántico -->
+    </trip>
+    <trip id="18_train_1:3" type="pt_train" depart="353.0" departLane="best" from="452573164#0" to="-25841648#0">
+        <stop busStop="4628999924@6559533" duration="30"/>  <!-- Atlántico -->
+        <stop busStop="4628999925" duration="30"/>  <!-- Estación Atlántico -->
+        <stop busStop="-4636012378" duration="30"/>  <!-- La Corte -->
+        <stop busStop="-4636012379" duration="30"/>  <!-- Plaza Cleto González Víquez -->
+        <stop busStop="10719766598" duration="30"/>  <!-- None -->
+        <stop busStop="-4636012380@7357187" duration="30"/>  <!-- Pacífico -->
+        <stop busStop="-4636012381" duration="30"/>  <!-- Cuba -->
+        <stop busStop="-278449879" duration="30"/>  <!-- Contraloría -->
+        <stop busStop="-289555266" duration="30"/>  <!-- La Salle -->
+    </trip>
+    <trip id="19_train_1:4" type="pt_train" depart="383.0" departLane="best" from="25841648#0" to="446753979#15">
+        <stop busStop="289555266" duration="30"/>  <!-- La Salle -->
+        <stop busStop="278449879" duration="30"/>  <!-- Contraloría -->
+        <stop busStop="4636012381" duration="30"/>  <!-- Cuba -->
+        <stop busStop="4636012380" duration="30"/>  <!-- Pacífico -->
+    </trip>
+    <trip id="20_train_1:5" type="pt_train" depart="389.0" departLane="best" from="-446753979#15" to="-25841648#0">
+        <stop busStop="-4636012380" duration="30"/>  <!-- Pacífico -->
+        <stop busStop="-4636012381" duration="30"/>  <!-- Cuba -->
+        <stop busStop="-278449879" duration="30"/>  <!-- Contraloría -->
+        <stop busStop="-289555266" duration="30"/>  <!-- La Salle -->
+    </trip>
+    <trip id="21_train_1:6" type="pt_train" depart="406.0" departLane="best" from="1038934246#3" to="-25841648#0">
+        <stop busStop="4628999924@6559533" duration="30"/>  <!-- Atlántico -->
+        <stop busStop="4628999925" duration="30"/>  <!-- Estación Atlántico -->
+        <stop busStop="-4636012378" duration="30"/>  <!-- La Corte -->
+        <stop busStop="-4636012379" duration="30"/>  <!-- Plaza Cleto González Víquez -->
+        <stop busStop="10719766598" duration="30"/>  <!-- None -->
+        <stop busStop="-4636012380@7357187" duration="30"/>  <!-- Pacífico -->
+        <stop busStop="-4636012381" duration="30"/>  <!-- Cuba -->
+        <stop busStop="-278449879" duration="30"/>  <!-- Contraloría -->
+        <stop busStop="-289555266" duration="30"/>  <!-- La Salle -->
+    </trip>
+    <trip id="22_train_4:2" type="pt_train" depart="418.0" departLane="best" from="452573164#0" to="1038934246#3">
+        <stop busStop="4628999924@6559533" duration="30"/>  <!-- Atlántico -->
+        <stop busStop="4628999925" duration="30"/>  <!-- Estación Atlántico -->
+    </trip>
+    <trip id="23_train_1:7" type="pt_train" depart="441.0" departLane="best" from="452573164#0" to="1038934246#3">
+        <stop busStop="4628999924@6559533" duration="30"/>  <!-- Atlántico -->
+        <stop busStop="4628999925" duration="30"/>  <!-- Estación Atlántico -->
+    </trip>
+    <trip id="24_train_4:3" type="pt_train" depart="483.0" departLane="best" from="1038934246#3" to="1038934246#3">
+        <stop busStop="4628999924@6559533" duration="30"/>  <!-- Atlántico -->
+        <stop busStop="4628999925" duration="30"/>  <!-- Estación Atlántico -->
+    </trip>
+    <trip id="25_bus_200:0" type="pt_bus" depart="485.0" departLane="best" from="389754237" to="549832822">
+        <stop busStop="5311344479" duration="30"/>  <!-- San José -->
+    </trip>
+    <trip id="26_bus_203:1" type="pt_bus" depart="535.0" departLane="best" from="549800868" to="1248302328">
+        <stop busStop="4100624695" duration="30"/>  <!-- San José -->
+        <stop busStop="5310867778" duration="30"/>  <!-- Terminal Atenas -->
+        <stop busStop="5310867775" duration="30"/>  <!-- Centro Nacional Rehabilitación -->
+    </trip>
+    <trip id="27_bus_06:0" type="pt_bus" depart="574.0" departLane="best" from="366059389#3" to="135050788#1">
+        <stop busStop="5501954525" duration="30"/>  <!-- Bus Barrio Luján -->
+        <stop busStop="5501955422" duration="30"/>  <!-- Luján - San José -->
+    </trip>
+</routes>

@@ -1,0 +1,60 @@
+Warning: At actuated tlLogic 'cluster_10771298708_6414541557', linkIndex 12,13,14 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_174058397_3024197140', linkIndex 11,12,13 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_2639211424_3647678753', actuated phase 0 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_2639211424_3647678753', linkIndex 0,1,2,3,4,5,6 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_267743398_275787245', linkIndex 8,9,10,11,12 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_273426089_3494162312', linkIndex 6,7,8 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_276234844_276557984_3508996265_3974499220_#2more', actuated phase 2 has no controlling detector.
+Warning: busStop '4628999925' on lane '1038934246#3_0' is too short for vehicle '8_train_4:0'.
+Warning: busStop '10719766598' on lane '440793505#10_0' is too short for vehicle '14_train_1:2'.
+Warning: Railway routing failure due to turn-around on short edge '298488302#0' for vehicle '14_train_1:2' time=3.00.
+Warning: No connection between edge '440793505#10' and edge '440793505#10' found.
+Warning: Vehicle '14_train_1:2' has no valid route from edge '440793505#10' to stop edge '440793505#10'.
+Warning: Railway routing failure due to turn-around on short edge '468564875#0' for vehicle '14_train_1:2' time=3.00.
+Warning: No connection between edge '1038934246#3' and edge '1038934246#3' found.
+Warning: Vehicle '14_train_1:2' has no valid route from edge '1038934246#3' to stop edge '1038934246#3'.
+Warning: Railway routing failure due to turn-around on short edge '468564875#0' for vehicle '9_train_4:1' time=3.00.
+Warning: No connection between edge '1038934246#3' and edge '1038934246#3' found.
+Warning: Vehicle '9_train_4:1' has no valid route from edge '1038934246#3' to stop edge '1038934246#3'.
+Warning: Railway routing failure due to turn-around on short edge '468564875#0' for vehicle '8_train_4:0' time=3.00.
+Warning: No connection between edge '1038934246#3' and edge '1038934246#3' found.
+Warning: Vehicle '8_train_4:0' has no valid route from edge '1038934246#3' to stop edge '1038934246#3'.
+Warning: Railway routing failure due to turn-around on short edge '468564875#0' for vehicle '21_train_1:6' time=204.00.
+Warning: No connection between edge '1038934246#3' and edge '1038934246#3' found.
+Warning: Vehicle '21_train_1:6' has no valid route from edge '1038934246#3' to stop edge '1038934246#3'.
+Warning: Railway routing failure due to turn-around on short edge '468564875#0' for vehicle '18_train_1:3' time=204.00.
+Warning: Vehicle '18_train_1:3' has no valid route from edge '1038934246#3' to stop edge '1038934246#3'.
+Warning: Teleporting vehicle '8_train_4:0'; waited too long (wrong lane, disconnected), lane='1038934246#3_0', time=301.00.
+Warning: Teleporting vehicle '9_train_4:1'; waited too long (wrong lane, disconnected), lane='1038934246#3_0', time=332.00.
+Warning: Vehicle '8_train_4:0' ends teleporting on edge '1038934246#3', time=332.00.
+Warning: Vehicle '9_train_4:1' ends teleporting on edge '1038934246#3', time=374.00.
+Warning: Railway routing failure due to turn-around on short edge '468564875#0' for vehicle '22_train_4:2' time=406.00.
+Warning: Vehicle '22_train_4:2' has no valid route from edge '1038934246#3' to stop edge '1038934246#3'.
+Warning: Railway routing failure due to turn-around on short edge '468564875#0' for vehicle '23_train_1:7' time=406.00.
+Warning: Vehicle '23_train_1:7' has no valid route from edge '1038934246#3' to stop edge '1038934246#3'.
+Warning: Railway routing failure due to turn-around on short edge '468564875#0' for vehicle '24_train_4:3' time=406.00.
+Warning: Vehicle '24_train_4:3' has no valid route from edge '1038934246#3' to stop edge '1038934246#3'.
+Warning: Teleporting vehicle '21_train_1:6'; waited too long (wrong lane, disconnected), lane='1038934246#3_0', time=447.00.
+Warning: Block after insertion lane '1038934246#3_0' exceeds maximum length (stopped searching after edge ':459981401_1' (length=20043.00m).
+Warning: Vehicle '21_train_1:6' skips stop on lane '1038934246#3_0' time=449.00.
+Warning: Block after insertion lane '468564875#0_0' exceeds maximum length (stopped searching after edge ':13018067093_0' (length=20970.76m).
+Warning: Block after insertion lane '468564875#1_0' exceeds maximum length (stopped searching after edge ':13018067093_0' (length=20861.86m).
+Warning: Block after insertion lane '468564875#2_0' exceeds maximum length (stopped searching after edge ':13018067093_0' (length=20845.52m).
+Warning: Block after insertion lane '468564875#3_0' exceeds maximum length (stopped searching after edge ':13018067093_0' (length=20810.00m).
+Warning: Teleporting vehicle '24_train_4:3'; waited too long (wrong lane, disconnected), lane='1038934246#3_0', time=514.00.
+Warning: Vehicle '24_train_4:3' ends teleporting on edge '1038934246#3', time=514.00.
+Warning: Vehicle '21_train_1:6' skips stop on lane '1038934239#0_0' time=1686.00.
+Warning: Vehicle '21_train_1:6' skips stop on lane '-440793505#10_0' time=1713.00.
+Warning: Vehicle '21_train_1:6' skips stop on lane '440793505#10_0' time=1764.00.
+Warning: Teleporting vehicle '18_train_1:3'; waited too long (wrong lane, disconnected), lane='1038934246#3_0', time=1825.00.
+Warning: Vehicle '18_train_1:3' skips stop on lane '1038934246#3_0' time=1827.00.
+Warning: Vehicle '22_train_4:2' teleports beyond arrival edge '1038934246#3', time=2009.00.
+Warning: Vehicle '14_train_1:2' ends teleporting on edge '-440619830#8', time=2189.00.
+Warning: Vehicle '23_train_1:7' ends teleporting on edge '1038934246#3', time=2189.00.
+Warning: Vehicle '21_train_1:6' teleports beyond arrival edge '-25841648#0', time=3182.00.
+Warning: 8 total messages of type: At actuated tlLogic '%', linkIndex % has no controlling detector.
+Warning: 50 total messages of type: Block after % exceeds maximum length (stopped searching after edge '%' (length=%m).
+Warning: 9 total messages of type: No connection between edge '%' and edge '%' found.
+Warning: 9 total messages of type: Teleporting vehicle '%'; waited too long (wrong lane, disconnected), lane='%', time=%.
+Warning: 7 total messages of type: Vehicle '%' ends teleporting on edge '%', time=%.
+Warning: 12 total messages of type: Vehicle '%' skips stop on lane '%' time=%.
